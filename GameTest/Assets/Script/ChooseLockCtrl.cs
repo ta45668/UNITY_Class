@@ -10,7 +10,7 @@ public class ChooseLockCtrl : MonoBehaviour
     GameObject[] lockObj = new GameObject[6];
 
     Transform[][] lockNunbmerObj = new Transform[6][];//選擇的物件
-    Vector3[][] lockNunbmerPost = new Vector3[6][];//選擇的物件
+    Vector3[][] lockNunbmerPost = new Vector3[6][];//選擇物件的原始位置
 
     int nowLockNubmer = 0;//現在所選擇的鎖
     int[] nowLockNubmerPost = new int[6] { 0, 0, 0, 0, 0, 0 };//現在所選擇的鎖位置(答案)
